@@ -1,0 +1,14 @@
+.header {
+    height: 5rem;
+}
+
+.header-headings_title {
+    text-transform: uppercase;
+    color: var(--text-title-color);
+    font-size: 1.25rem;
+}
+
+.header-headings_subtitle {
+    color: var(--text-subtitle-color);
+    font-size: 0.75rem;
+}

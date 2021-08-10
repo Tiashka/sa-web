@@ -1,0 +1,12 @@
+:root {
+  --inc: 4;
+
+  --primary-color: #8000bb;
+  --primary-color-light: #8f2dbd;
+  --secondary-color: #ffffff;
+  --white: #FFFFFF;
+  --black: #000000;
+
+  --text-title-color: #49dbaf;
+  --text-subtitle-color: #3f3f3f;
+  }

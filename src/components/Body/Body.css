@@ -1,0 +1,19 @@
+.body {
+    overflow: auto;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid var(--primary-color);
+}
+
+.scroll {
+    overflow: auto;
+    flex: 12;
+    flex-wrap: wrap;
+    justify-content: center;
+}
