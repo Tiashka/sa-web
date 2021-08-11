@@ -1,12 +1,17 @@
 :root {
   --inc: 4;
 
-  --primary-color: #8000bb;
+  --primary-color: #7B4F95;
   --primary-color-light: #8f2dbd;
   --secondary-color: #ffffff;
-  --white: #FFFFFF;
+  --white: #F5F5F5;
   --black: #000000;
 
-  --text-title-color: #49dbaf;
-  --text-subtitle-color: #3f3f3f;
+  --text-title-color: #30B4A4;
+  --text-subtitle-color: #242963;
+  --text-subtitle-color-dark: #282469;
+  --text-emergency-color: #A24936;
+
+  --img-body-background: url("assets/sa-bg.png");
+  --img-header-logo: url("assets/sa-logo.png");
   }

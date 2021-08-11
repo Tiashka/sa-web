@@ -1,14 +1,36 @@
 .header {
-    height: 5rem;
+    height: 7.75rem;
+}
+
+.header-headings {
+    gap: 4px;
 }
 
 .header-headings_title {
     text-transform: uppercase;
     color: var(--text-title-color);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 .header-headings_subtitle {
     color: var(--text-subtitle-color);
-    font-size: 0.75rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.header-emergency {
+    padding-right: 2.5rem;
+}
+
+.header-emergency_title {
+    color: var(--text-emergency-color);
+    font-size: 1.125rem;
+    font-weight: 800;
+}
+
+.header-emergency_subtitle {
+    color: var(--text-emergency-color);
+    font-size: 1.125rem;
+    font-weight: 400;
 }
