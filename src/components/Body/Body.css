@@ -17,25 +17,3 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.top {
-    background: var(--white) var(--img-body-background) repeat fixed center;
-}
-
-.top .top-button {
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-.bottom {
-    color: var(--text-subtitle-color);
-    gap: 1rem;
-}
-
-.bottom-container {
-    gap: 0.25rem;
-}
-
-.bottom h4 {
-    color: var(--text-subtitle-color-dark);
-}
