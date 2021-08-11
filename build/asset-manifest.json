@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sa-web/static/css/main.40425e46.chunk.css",
+    "main.js": "/sa-web/static/js/main.3bcb9e66.chunk.js",
+    "main.js.map": "/sa-web/static/js/main.3bcb9e66.chunk.js.map",
+    "runtime-main.js": "/sa-web/static/js/runtime-main.5c9164f1.js",
+    "runtime-main.js.map": "/sa-web/static/js/runtime-main.5c9164f1.js.map",
+    "static/js/2.4238fd93.chunk.js": "/sa-web/static/js/2.4238fd93.chunk.js",
+    "static/js/2.4238fd93.chunk.js.map": "/sa-web/static/js/2.4238fd93.chunk.js.map",
+    "static/js/3.839fb637.chunk.js": "/sa-web/static/js/3.839fb637.chunk.js",
+    "static/js/3.839fb637.chunk.js.map": "/sa-web/static/js/3.839fb637.chunk.js.map",
+    "index.html": "/sa-web/index.html",
+    "static/css/main.40425e46.chunk.css.map": "/sa-web/static/css/main.40425e46.chunk.css.map",
+    "static/js/2.4238fd93.chunk.js.LICENSE.txt": "/sa-web/static/js/2.4238fd93.chunk.js.LICENSE.txt",
+    "static/media/globalStyleVariables.css": "/sa-web/static/media/sa-logo.c8b929e9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c9164f1.js",
+    "static/js/2.4238fd93.chunk.js",
+    "static/css/main.40425e46.chunk.css",
+    "static/js/main.3bcb9e66.chunk.js"
+  ]
+}
