@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Logo from "assets/sa-logo.png";
-import "./Header.css";
 import { withRouter } from "react-router-dom";
 import PropTypes from "prop-types";
 import { LANDING } from "constants/routes";
+import "./Header.css";
 
 class Header extends Component {
 	static propTypes = {
