@@ -30,6 +30,8 @@ export default class BookAppointment extends Component {
 
 		return (
 			<Box className="book-appointment" display="flex" flexDirection="column" flex="1" alignItems="center" justifyContent="center">
+				<div style={{ width: "100%", height: 40, color: "white", backgroundColor: "#7b4f95", marginTop: -10, }}><p style={{ fontSize: 15, marginLeft: 10 }}>BOOK APPOINTMENT</p>	</div>
+				<br />
 				<div style={{ display: "flex", width: "100%", height: "100%" }}>
 					<div style={formContainerBackground}>
 						<p style={{ fontSize: 25 }}>Personal Information</p>
