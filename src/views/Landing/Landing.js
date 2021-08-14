@@ -12,7 +12,7 @@ class Landing extends Component {
 		location: PropTypes.object.isRequired,
 		history: PropTypes.object.isRequired
 	};
-	
+
 	handleBookAppointmentClick() {
 		this.props.history.push(BOOK_APPOINTMENT);
 	}
@@ -21,7 +21,7 @@ class Landing extends Component {
 		return (
 			<div className="landing col flex-grow">
 				<Box className="top" display="flex" flexWrap="nowrap" flex={2} flexDirection="row" alignItems="center" justifyContent="center">
-					<Button className="top-button" variant="contained" size="large" color="primary" onClick={()=>this.handleBookAppointmentClick()}>{"BOOK APPOINTMENT"}</Button>
+					<Button className="top-button" variant="contained" size="large" color="primary" onClick={() => this.handleBookAppointmentClick()}>{"BOOK APPOINTMENT"}</Button>
 				</Box>
 				<Box className="bottom" display="flex" flexWrap="nowrap" flex={1} flexDirection="column" px={11} justifyContent="center">
 					<Typography m={1} variant="h3" component="h3">

@@ -1,13 +1,22 @@
-import { Box, Checkbox, TextField } from "@material-ui/core";
+import { Box, Checkbox, TextField, Button } from "@material-ui/core";
 import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { withRouter } from "react-router-dom";
 import "./BookAppointment.css";
-// import Calendar from "react-calendar";
-export default class BookAppointment extends Component {
+import { CONFIRMATION } from "constants/routes";
 
+class BookAppointment extends Component {
+	static propTypes = {
+		history: PropTypes.object.isRequired
+	};
+
+	handleBookAppointmentClick() {
+		this.props.history.push(CONFIRMATION);
+	}
 	render() {
 
 		const formContainerBackground = {
-			width: "40%",
+			width: "100%",
 			height: "90%",
 			backgroundColor: "white",
 			borderRadius: 5,
@@ -67,7 +76,11 @@ export default class BookAppointment extends Component {
 						</div>
 					</div>
 				</div>
+				<Button variant="contained" color="#7b4f95" style={{ backgroundColor: "#7B4F95", borderRadius: 20, height: 50, color: "white", width: "30%", marginTop: -20 }} onClick={() => this.handleBookAppointmentClick()}> BOOK APPOINTMENT</Button>
+				<br />
+				<br />
 			</Box>
 		);
 	}
 }
+export default withRouter(BookAppointment);
