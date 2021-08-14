@@ -1,6 +1,7 @@
 import { Box, Checkbox, TextField } from "@material-ui/core";
 import React, { Component } from "react";
 import "./BookAppointment.css";
+// import Calendar from "react-calendar";
 export default class BookAppointment extends Component {
 
 	render() {
@@ -60,29 +61,9 @@ export default class BookAppointment extends Component {
 						</div>
 					</div>
 					<div style={formContainerBackground}>
-						<p style={{ fontSize: 25 }}>Personal Information</p>
+						<p style={{ fontSize: 25 }}>Calendar</p>
 						<div style={formContainer}>
-							<form noValidate autoComplete="off">
-								<div style={textFieldContainer}>
-									<TextField id="outlined-basic" label="Name" variant="outlined" style={{ height: 40, width: "85%", }} />
-								</div>
-								<br />
-								<div style={textFieldContainer}>
-									<TextField id="outlined-basic" label="Surname" variant="outlined" style={{ height: 40, width: "85%", }} />
-								</div>
-								<br />
-								<div style={textFieldContainer}>
-									<TextField id="outlined-basic" label="Email" variant="outlined" style={{ height: 40, width: "85%", }} />
-								</div>
-								<div style={{ display: "flex", justifyContent: "space-between", marginRight: "10%", marginLeft: "10%", paddingTop: "8%" }}>
-									<p>Are you already part of our family?</p>
-									<Checkbox
-										value="checkedA"
-										color="primary"
-										inputProps={{ "aria-label": "Checkbox A" }}
-									/>
-								</div>
-							</form>
+
 						</div>
 					</div>
 				</div>
